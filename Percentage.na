@@ -1,0 +1,7 @@
+"Geben Sie max. Punkte ein:Geben Sie erreichte Punktzahl ein:Prozent:"
+
+inc 10
+
+lit 20
+
+halt
