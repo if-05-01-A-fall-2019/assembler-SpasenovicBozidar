@@ -1,0 +1,44 @@
+"Enter a number:"
+
+inc 12
+
+lit 0
+lit 15
+lit 16
+out 2
+
+
+la 0 32
+la 0 36
+in 0
+
+la 0 40
+lit 1
+sto
+
+jmp .loop_numbers
+
+.loop_numbers
+lv 0 40
+lit 1
+out 0
+out 3
+
+la 0 40
+lv 0 40
+lit 1
+add
+sto
+
+
+lv 0 40
+lit 1
+sub
+lv 0 32
+rel 2
+
+fjmp .loop_numbers
+
+
+
+halt

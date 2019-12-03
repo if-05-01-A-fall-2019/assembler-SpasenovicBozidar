@@ -1,0 +1,43 @@
+"Please enter a number:The points achieved:Percent:"
+
+inc 16
+
+lit 0
+lit 22
+lit 23
+out 2
+
+
+la 0 32
+la 0 36
+in 0
+
+lit 22
+lit 20
+lit 21
+out 2
+
+la 0 40
+la 0 44
+in 0
+
+
+la 0 44
+lv 0 40
+lit 100
+mul
+lv 0 32
+div
+sto
+
+lit 42
+lit 8
+lit 9
+out 2
+
+lv 0 44
+lit 1
+out 0
+
+out 3
+halt
